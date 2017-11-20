@@ -1,5 +1,5 @@
 <?php
-$token = "EAAB6nFltrEIBAMfGFFfV8ZCU1Nz54HjG2l6EZCNZAXzznWwUYw1qmAKjF5raqvmKiKCO6J7LIbZCmoq2CDfctpHx0KHMZAqb417kv9IqeDPYfRfbbk44nY5anWA6II4mGs9wB0kjoueNKso1fmj29gGJF5KsxZBO4Gm1OFFPC1b6ZCuoBNlsM4j";
+$token = "EAAcShUvBPaIBAHPcQdhwA2wIi4SgNtGZAL4PkUpLHBtkjTmfYkM1bXiKqf1qXcKHHiaus47tBwoBiZCAPePiIZCMGvffhsU8ZAdohzblWWu7dkgYKvYOmmEblZCPeZBOcUYw8C92D6clSKprMa8LnWg9rqU4q2bTZCA4JZC3yv1XLZAiiEIcavbvM";
  
 file_put_contents("message.txt",file_get_contents("php://input"));
 $fb_message = file_get_contents("message.txt");
