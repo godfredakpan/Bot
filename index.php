@@ -9,7 +9,7 @@ $fb = json_decode($fb);
 $rid = $fb->entry[0]->messaging[0]->sender->id;
 
 
-$token = "EAAcShUvBPaIBAHPcQdhwA2wIi4SgNtGZAL4PkUpLHBtkjTmfYkM1bXiKqf1qXcKHHiaus47tBwoBiZCAPePiIZCMGvffhsU8ZAdohzblWWu7dkgYKvYOmmEblZCPeZBOcUYw8C92D6clSKprMa8LnWg9rqU4q2bTZCA4JZC3yv1XLZAiiEIcavbvM";
+$token = "EAAB6nFltrEIBAI32JwE5gxJH8ERwCSm6bRMHZCpEFtkeZCPQ8qZC3IUytXoyu21LvcRzDgJPpZCFgpaVIjlghVmWBwxLScyBnVQsfiFwIlifyrYHPKrDPdLz4D6zSszLu4Ro0nIyZAVeUnVouJ4bXstNN2eq0dNAb81CfWavjpCxkS51A4hnh";
 
 $data = array(
 	'recipient' => array('id'=>"$rid"),
