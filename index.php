@@ -20,5 +20,5 @@ $options_header = array ( //Necessary Headers
 );
 $context = stream_context_create($options_header);
 file_get_contents("https://graph.facebook.com/v2.6/me/messages?access_token=$token",false,$context);
-print_r($_GET['hub_challenge']);
+
 ?>
