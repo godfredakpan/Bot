@@ -3,10 +3,10 @@
 
 file_put_contents("fb.tx", file_get_contents("php://input"));    
 
-$fb = fie_get_contents("fb.txt");
+$fb = file_get_contents("fb.txt");
 
 $fb = json_decode($fb);
-$rid = $fb->entry[0]->sender-id;
+$rid = $fb->entry[0]->messaging[0]->sender->id;
 
 
 $token = "EAAcShUvBPaIBAHPcQdhwA2wIi4SgNtGZAL4PkUpLHBtkjTmfYkM1bXiKqf1qXcKHHiaus47tBwoBiZCAPePiIZCMGvffhsU8ZAdohzblWWu7dkgYKvYOmmEblZCPeZBOcUYw8C92D6clSKprMa8LnWg9rqU4q2bTZCA4JZC3yv1XLZAiiEIcavbvM";
@@ -20,7 +20,7 @@ $options = array(
 		'http' => array(
 			'method' => 'POST',
 			'content' => json_encode($data),
-			'header' => "Content-Type: appication/jso\n"
+			'header' => "Content-Type: application/jso\n"
 	)
 );
 $context = stream_context_create($options);
